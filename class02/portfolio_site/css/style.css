@@ -1,7 +1,7 @@
 body{
 	margin-top: 25px;
 	padding: 50px;
-	background-color: gray;
+	background-color: d3d3d3;
 	border-top: solid 5px black;
 	border-bottom: solid 5px black;
 	text-align: center;
@@ -20,10 +20,12 @@ p{
 
 img{
 	border: solid 1px black;
-	margin: 3px;
+	margin: 20px;
 	padding: 5px;
 	text-align: right;
+	float: right;
 }
+
 hr{
 	border-color: black;
 }
