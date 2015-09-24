@@ -1,0 +1,32 @@
+body{
+	margin-top: 25px;
+	padding: 50px;
+	background-color: gray;
+	border-top: solid 5px black;
+	border-bottom: solid 5px black;
+	text-align: center;
+	font-family: sans-serif;
+}
+nav{
+	font-weight: bold;
+}
+h2{
+	text-align: left;
+}
+p{
+	text-align: left;
+	font-family: serif;
+}
+
+img{
+	border: solid 1px black;
+	margin: 3px;
+	padding: 5px;
+	text-align: right;
+}
+hr{
+	border-color: black;
+}
+a{
+	color: black;
+}

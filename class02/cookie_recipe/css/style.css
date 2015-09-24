@@ -1,0 +1,17 @@
+body{
+	background-color: #FFDF1B;
+	border-style: solid;
+	border-color: black;
+	border-width: 3 px;
+	padding: 5 px; 
+}
+img{
+	border: solid 3px black;
+}
+
+h3{
+	COLOR: #887;
+}
+a{
+	color: #900; 
+}
