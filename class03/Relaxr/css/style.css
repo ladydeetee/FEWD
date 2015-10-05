@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr
+Client: FEWD-DC-17
+Author: Danielle Theroux
+Developer @GA in DC
 */
 
 
@@ -46,12 +46,22 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
+     color: #606161;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'open sans';
+     font-weight: Light;
+
+}
+
+ul{
+  margin-left: 125px;
+  margin-bottom: 25px;
+}
+
+li{
+  list-style: disc;
+  padding-left: 15px;
 }
 
 
@@ -60,20 +70,151 @@ body {
 /*******************************************/
 
 /* Center the container */
+
 #container {
   width: 100%;
   margin: auto;
   height: 500px;
-
+  content: center;
 }
 
 header {
+  background-image: url(../images/header_bg.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+  background-position: center center;
 
+}
+
+h1{
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  margin: 25px 50px 25px;
+}
+
+h2{
+color: white;
+font-size: 20px;
+text-align: center;
+margin: 25px 25px 25px 80px;
+}
+
+.benefits-h2{
+  color: #033048;
+  text-align: left;
+  font-weight: bold;
+}
+
+.benefits-p{
+  text-align: left;
+  margin: 25px 25px 25px 80px;
+  color: gray;
+  font-size: 14pt;
+}
+
+.GetitNow{
+  background: #f9e42e;
+  margin: auto;
+  display: block;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.boxcontainer-quote{
+  padding-left: 35%;
+  padding-right: 35%;
+  text-align: center;
+  background-image: url(../images/testimonial_bg.jpg);
+  font-weight: lighter;
+}
+.client-quote{
+  color: white;
+  font-style: italic;
+  text-align: center;
+  padding: 50px;
+  font-size: 14pt;
+}
+.quote-bold{
+  font-weight: bold;
+}
+
+p{
+font-size: 14 pt;
+text-align: left;
+margin-left: 80px;
+}
+
+h3{
+  color: blue;
+  font-size: 16pt;
+  margin: 25px 50px 25px;
+}
+
+
+.quote{
+  font-style: italic;
+  text-align: center;
+  font-family: 16pt;
+  color: white;
+}
+
+button{ 
+font-family: open sans;
+font-size: 12pt;
+font-weight: bold;
+text-align: center;
+border-radius: 1em/5em;
+}
+
+.SignUp{
+  background-color: #f9e42e;
+  padding: 25px;
+  margin: auto;
+  display: block;
+  content: center;
+}
+
+.SignUpNow{
+  display: block;
+  content: center;
+  background: #033048;
+  color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin: auto;
+  display: block;
 }
 
 footer {
-
+background-color: black;
+text-align: center;
 }
+
+a{
+  padding: 25px;
+}
+
+h5{
+  font-family: open sans;
+  font-weight: bold;
+  color: #f9e42e;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.copyright{
+  font-family: opensans;
+  font-weight: light;
+  font-size: 10pt;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
