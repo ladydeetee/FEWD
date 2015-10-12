@@ -1,34 +1,44 @@
 body{
 	margin-top: 25px;
 	padding: 50px;
-	background-color: d3d3d3;
+	background-color: gray;
 	border-top: solid 5px black;
 	border-bottom: solid 5px black;
 	text-align: center;
-	font-family: sans-serif;
-}
+	font-family: sans-serif; }
 nav{
 	font-weight: bold;
-}
+	}
 h2{
-	text-align: left;
-}
+	text-align: left; }
 p{
 	text-align: left;
-	font-family: serif;
-}
+	font-family: serif; }
 
 img{
 	border: solid 1px black;
 	margin: 20px;
 	padding: 5px;
 	text-align: right;
-	float: right;
-}
+	float: right; }
+h2{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 12pt; }
 
 hr{
 	border-color: black;
+	width: 50%; 
 }
+
 a{
-	color: black;
+	color: black;}
+
+h4{
+		font-weight: normal;
+	}
+strong
+{ font-style: italic;}
+
+ul img{ float: center;
 }
