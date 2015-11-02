@@ -1,0 +1,72 @@
+html {
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+    /* background: $main-color; */
+    background: #F4F4F4;
+}
+html {
+    color: black;
+    text-align: left;
+    font-family: "Source Sans Pro", sans-serif;
+}
+html, button, input, select, textarea {
+    font-family: sans-serif;
+}
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+h1{
+    font-family: 'Carme', sans-serif;   
+    font-size: 48px;
+}
+
+p{
+    font-family: 'Carme', sans-serif;   
+    font-size: 20px;
+    width: 50%;
+}
+
+body {
+    border: solid 1em;
+	width: auto;
+    padding: 3em; 
+    border-color: black;
+}
+
+.tiny{
+    font-size: 12px;
+}
+
+.button{
+    border-color: black 1em;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+/*<!CSS media query within a stylesheet*/
+<style>
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+</style>
+
+a.button {
+    padding: .7rem;
+    border-radius: .3rem;
+    display: inline-block;
+    width: 12rem;
+    border: solid 1px white;
+    background-color: white; }
+
