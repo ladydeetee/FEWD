@@ -1,4 +1,4 @@
-//* normalize.css v1.0.0 | MIT License | git.io/normalize */
+/* normalize.css v1.0.0 | MIT License | git.io/normalize */
 /* line 2, ../scss/partials/_reset.scss */
 
 article,
@@ -86,26 +86,33 @@ a:link {
 
 h1 {
   font-family: 'Lora', serif;
-  font-size: 90px;
+  font-size: 60px;
   color: #000000;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  font-weight: 100;
   width: 65%;
+  margin-bottom: 30px;
 }
-
-body {}
 
 ul {
   display: inline-block;
   list-style: none;
+  padding-left: 0;
 }
 
 .footer-social li {
-  display: inline-block;
+  display: inline;
+  padding-right: 10px;
 }
+
+.footer-social li a {
+  text-decoration: none;
+}
+
 /*<!CSS media query within a stylesheet*/
 
 @media only screen and (max-width: 1040px) {
